@@ -45,3 +45,4 @@ try:
 except Exception as e:
     current_time = datetime.now()
     logging.error("[{}] Dosya Transferi Başarısız: {}".format(current_time, e))
+ 
